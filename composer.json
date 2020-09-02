@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "ITI\\": "app/"
+    },
+    "files": [
+        "app\\Config\\app.php",
+        "app\\Config\\routes.php",
+        "app\\Config\\helpers.php",
+        "app\\Config\\validation.php"
+    ]
+  }
+}

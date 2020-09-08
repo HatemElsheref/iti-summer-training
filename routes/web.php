@@ -116,3 +116,9 @@ return view('session1.profile',compact('info'));
 
 Route::get('/posts','PostController@index')->name('posts.index');
 Route::get('/posts/{post}','PostController@show')->name('posts.show');
+
+
+# Session 3
+
+Route::get('/courses','CourseController@index')->name('courses.index');
+Route::post('/courses','CourseController@store')->name('posts.store');

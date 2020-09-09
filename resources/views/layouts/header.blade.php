@@ -25,6 +25,8 @@
             <a class="nav-link" href="{{route('about')}}">About Us</a>
             <a class="nav-link" href="{{route('contact')}}">Contact Us</a>
             <a class="nav-link" href="{{route('profile')}}">MY Account</a>
+            <a class="nav-link" href="{{route('courses.index')}}">MY Courses</a>
+            <a class="nav-link" href="{{route('students.index')}}">Students</a>
         </div>
     </div>
 </nav>

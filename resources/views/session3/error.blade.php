@@ -1,7 +1,13 @@
 @if($errors->any())
-    <div class="alert alert-danger" role="alert">
+    <div class="list-group mb-2">
         @foreach($errors->all() as $error)
-         <p><i class="fa fa-question"></i> {{$error}}</p>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger"><i class="fa fa-times fa-sm"></i> {{$error}}</a>
+
         @endforeach
     </div>
 @endif
+
+
+
+

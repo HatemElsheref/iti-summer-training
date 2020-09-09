@@ -122,3 +122,7 @@ Route::get('/posts/{post}','PostController@show')->name('posts.show');
 
 Route::get('/courses','CourseController@index')->name('courses.index');
 Route::post('/courses','CourseController@store')->name('posts.store');
+
+# Session 4
+
+Route::resource('/students','StudentController')->except('show');
